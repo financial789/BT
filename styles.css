@@ -492,9 +492,13 @@
       padding-right: 100%;
         background-color: #2b393a;
         height: auto;
+        right: 100%;
         left: 100px;
         width: 1000px;
         color: #2b393a;
+        align-items: flex-end;
+        
+        
         
         
        }
@@ -523,7 +527,7 @@
     .form-container .btn {
         background-color: #04aa6d;
         color: white;
-        padding: 16px 100px;
+        padding: 10px 76px;
         border: none;
         cursor: pointer;
         width: 100%;
@@ -539,7 +543,7 @@
     }
     .form-container .btn:hover,
     .open-button:hover {
-        opacity: 1;
+        opacity: initial;
     }
 
    

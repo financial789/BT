@@ -1,0 +1,151 @@
+*{box-sizing: border-box;}
+
+
+.navbar { 
+    background: #7dae82;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0%;
+  z-index: 999;
+}
+
+
+.navbar__container {
+    color: #040aaa;
+    background-color: #3cd97b;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+    align-items: center;
+}
+
+
+.container {
+    color: #384761;
+    background-color: #7da2ae;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.main__content {
+    text-align: center;
+}
+
+#navbar__logo {
+    background-color: #3cd97b;
+    background-image: linear-gradient(to top, #44c944 0%, #3e3eda 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent ;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+
+
+/* Full-width input fields */
+input [type=text],
+input [type=password] {
+ width: 100%;
+ padding: 15px;
+ margin: 5px 0 22px 0;
+ display: inline-block;
+ border: none;
+ background: #f1f1f1;
+ 
+
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+ background-color: #ddd;
+ outline: none;
+ 
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+    
+}
+
+/* set a style for all buttons */
+
+button {
+ background-color: #04aa6d;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px0;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+ opacity: 0.9;
+ 
+}
+
+button:hover {
+ opacity: 1;
+}
+
+/*Extra styles for the cancel button */
+
+.cancelbtn {
+ padding: 14px 20px;
+ background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+ float: right;
+ width: 50%;
+}
+
+.container {
+ padding: 16px;
+
+}
+
+.clearfix::after {
+ content: "";
+ clear: both;
+ display: table;
+}
+
+/*The modal (background) */
+
+.modal {
+    display: none; /*Hidden by default */
+    position: fixed; /*Stay in place*/
+    z-index: 1; /* sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* full width */
+    height: 100%; /* full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+   
+   }
+
+
+
+
+   
+
+    
+ 

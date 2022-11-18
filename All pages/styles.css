@@ -3,10 +3,11 @@
     margin: 0;
     padding: 0;
     font-family: 'Kumbh Sans' , sans-serif; 
+    
 }
 
 .navbar { 
-    background: #41b439;
+    background: #0e42aa;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -29,7 +30,7 @@
 }
 
 #navbar__logo {
-    background-color: #3cd97b;
+    background-color: #0e42aa;
     background-image: linear-gradient(to top, #44c944 0%, #3e3eda 100%);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -197,7 +198,7 @@
 
    /* Hero Section CSS */
    .main {
-    background-color: #3466ca;
+    background-color: #0e42aa;
     
    }
 
@@ -217,7 +218,9 @@
 
     .main__content h2 {
         font-size: 4rem;
-        background-color: #28adcb;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #050c34;
+        background-color: #1a53c7;
         background-image: -moz-radial-gradient(to top, #ff0844 0%, rgba(89, 192, 33, 0.067) 100%);
         background-size: 100%
         -webkit-background-clip text 
@@ -231,9 +234,9 @@
 
     .main__content h3 {
         font-size: 1.5rem;
-        background-color: #a0b7c2;
+        background-color: #1a53c7;
         background-size: 100%;
-        color: rgb(42, 111, 181);
+        color: #0e42aa(42, 111, 181);
         -webkit-background-clip: border-box;
         -moz-background-clip: padding-box;
         }
@@ -247,7 +250,7 @@
             padding: 14px 32px;
             font-size: 3rem;
             padding: 14px 32px;
-            background-color: #2696b5;
+            background-color: #0e42aa;
             text-align: center;
           
         }
@@ -279,7 +282,7 @@
     h1 {
         text-align: center;
         color: rgb(108, 100, 196);
-        background-color: #22e322;
+        background-color: #0e42aa;
     }
     h2{
         text-align: center;
@@ -476,6 +479,8 @@
 
     .form-popup {
         display: none;
+        
+
         position: fixed;
         bottom: 0;
         left:  15px;
